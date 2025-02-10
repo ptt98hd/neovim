@@ -23,7 +23,7 @@ return {
     mason_lspconfig.setup {
       ensure_installed = {
         "lua_ls",
-        -- "clangd",
+        "clangd",
         "jdtls",
         "ts_ls",
       },
@@ -33,7 +33,7 @@ return {
     mason_formatter.setup {
       ensure_installed = {
         'stylua',
-        -- 'clang-format',
+        'clang-format',
         'google-java-format',
         'prettier',
       },
